@@ -1,0 +1,1168 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"it",
+				"it_came"
+			],
+			[
+				"zer",
+				"zero_to_remove"
+			],
+			[
+				"stri",
+				"strictly_increasing"
+			],
+			[
+				"max",
+				"max_increasing"
+			],
+			[
+				"strct",
+				"strictly_increasing"
+			],
+			[
+				"no",
+				"no_one"
+			],
+			[
+				"one",
+				"one_came"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
+				"sq",
+				"sqr"
+			],
+			[
+				"le",
+				"level_ct"
+			],
+			[
+				"ele",
+				"element_ct"
+			],
+			[
+				"min",
+				"min_index"
+			],
+			[
+				"inde",
+				"index_search"
+			],
+			[
+				"in",
+				"index_search"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"bg",
+				"begin"
+			],
+			[
+				"sum",
+				"sum_M"
+			],
+			[
+				"SUM",
+				"sum_M"
+			],
+			[
+				"S",
+				"S_b"
+			],
+			[
+				"mon",
+				"month"
+			],
+			[
+				"mod",
+				"mod4"
+			],
+			[
+				"md",
+				"mod4"
+			],
+			[
+				"mo",
+				"mod2"
+			],
+			[
+				"vla",
+				"vladik"
+			],
+			[
+				"fr",
+				"from_1"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"to",
+				"to_n"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"c",
+				"counter"
+			],
+			[
+				"col",
+				"col_e"
+			],
+			[
+				"row_",
+				"row_e"
+			],
+			[
+				"row",
+				"row_s"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"v",
+				"vofi"
+			],
+			[
+				"pow",
+				"PowerSet"
+			],
+			[
+				"type",
+				"typename"
+			],
+			[
+				"powe",
+				"powerSet"
+			],
+			[
+				"pri",
+				"primes"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"can",
+				"candidate"
+			],
+			[
+				"cand",
+				"candidate_index"
+			],
+			[
+				"cad",
+				"candidate_index"
+			],
+			[
+				"tem",
+				"temp_candidate"
+			],
+			[
+				"cna",
+				"candidate"
+			],
+			[
+				"main",
+				"main_str"
+			],
+			[
+				"prin",
+				"printModifiedString"
+			],
+			[
+				"temp",
+				"temp_label"
+			],
+			[
+				"sec",
+				"second_part"
+			],
+			[
+				"fir",
+				"first_part"
+			],
+			[
+				"ve",
+				"vec_s"
+			],
+			[
+				"vec",
+				"vec_s"
+			],
+			[
+				"ma",
+				"major"
+			],
+			[
+				"hack",
+				"hacked"
+			],
+			[
+				"x",
+				"x_on"
+			],
+			[
+				"__bul",
+				"__builtin_parity"
+			],
+			[
+				"diff",
+				"diffY"
+			],
+			[
+				"g",
+				"gcd"
+			],
+			[
+				"st",
+				"steps"
+			],
+			[
+				"dif",
+				"diffY"
+			],
+			[
+				"di",
+				"diffX"
+			],
+			[
+				"sqr",
+				"sqrt"
+			],
+			[
+				"count",
+				"counting"
+			],
+			[
+				"merg",
+				"merge_sort"
+			],
+			[
+				"inc",
+				"increments"
+			],
+			[
+				"pa",
+				"pages_left"
+			],
+			[
+				"ori",
+				"orig_ct"
+			],
+			[
+				"digits",
+				"digits_in"
+			],
+			[
+				"bina",
+				"binary1"
+			],
+			[
+				"bin",
+				"binary2"
+			],
+			[
+				"bir",
+				"binary2"
+			],
+			[
+				"bi",
+				"binary"
+			],
+			[
+				"pr",
+				"prod"
+			],
+			[
+				"su",
+				"sum4"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"has",
+				"hashing"
+			],
+			[
+				"unor",
+				"unordered_set"
+			],
+			[
+				"ise",
+				"insert"
+			],
+			[
+				"is",
+				"is_palin"
+			],
+			[
+				"y",
+				"y3"
+			],
+			[
+				"fast",
+				"fastscan"
+			],
+			[
+				"bei",
+				"begin"
+			],
+			[
+				"l",
+				"lcm2"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"begi",
+				"begin"
+			],
+			[
+				"val",
+				"val_ct"
+			],
+			[
+				"ct",
+				"ct_neg"
+			],
+			[
+				"thre",
+				"three_and_five"
+			],
+			[
+				"print",
+				"print_board"
+			],
+			[
+				"each",
+				"each_toast_salt"
+			],
+			[
+				"tot",
+				"tot_slices"
+			],
+			[
+				"index",
+				"index2"
+			],
+			[
+				"fas",
+				"fastio"
+			],
+			[
+				"ins",
+				"insert"
+			],
+			[
+				"inse",
+				"insert"
+			],
+			[
+				"mai",
+				"make_pair"
+			],
+			[
+				"vi",
+				"I-valarray\tinc"
+			],
+			[
+				"if",
+				"ifelif\tif(…) else if(…) else"
+			],
+			[
+				"max_",
+				"max_element\tfunc"
+			],
+			[
+				"beg",
+				"begin\tfunc"
+			],
+			[
+				"sarr",
+				"sarrB"
+			],
+			[
+				"weight",
+				"weightOfString"
+			],
+			[
+				"printing",
+				"printing_substring_subarray"
+			],
+			[
+				"buc",
+				"bucket\tfunc"
+			],
+			[
+				"gives",
+				"gives_to"
+			],
+			[
+				"v2_",
+				"v2_max"
+			],
+			[
+				"push",
+				"push_back\tfunc"
+			],
+			[
+				"be",
+				"begin\tfunc"
+			],
+			[
+				"back",
+				"back_inserter\tfunc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/*input\n6\n0 0 0 1 1 0\n*/\n#include <bits/stdc++.h>\n#include <ext/pb_ds/assoc_container.hpp>\n#include <ext/pb_ds/tree_policy.hpp>\n\nusing namespace std;\nusing namespace __gnu_pbds;\n\n#define MOD 1000000007\n\n#define MODSET(d) if ((d) >= MOD) d %= MOD;\n#define MODNEGSET(d) if ((d) < 0) d = ((d % MOD) + MOD) % MOD;\n#define MODADDSET(d) if ((d) >= MOD) d -= MOD;\n#define MODADDWHILESET(d) while ((d) >= MOD) d -= MOD;\n\n\n\n//defines   \n\n#define dsc1(a,type) type a; cin>>a;\n#define dsc2(a,b,type) type a,b; cin>>a>>b;\n#define dsc3(a, b, c,type) type a,b,c; cin>>a>>b>>c;\n#define dsc4(a, b, c, d,type) type a ,b,c,d; cin>>a>>b>>c>>d;\n#define nl    cout<<\"\\n\";\n#define foreach(v, c) for(__typeof( (c).begin()) v = (c).begin();  v != (c).end(); ++v)\n#define revforeach(v, c) for(__typeof( (c).rbegin()) v = (c).rbegin();  v != (c).rend(); ++v)\n\n#define fastio ios_base::sync_with_stdio(0);cin.tie(0);\n#define re(i,b) for(int i=0;i<int(b);i++)\n#define re1(i,b) for(int i=1;i<=int(b);i++)\n#define all(c) c.begin(), c.end() \n#define rall(c) c.rbegin(),c.rend()\n#define mpresent(container, element) (container.find(element) != container.end()) //for map,set..etc (returns true/false value)\n#define vpresent(container, element) (find(all(container),element) != container.end()) //for vectors,strings,list,deque (returns true/false value)\n\n#define eb emplace_back\n#define mp make_pair\n#define fi first\n#define se second\n#define pb push_back\n#define pf push_front\n#define ins insert\n#define F first\n#define S second\n#define clr clear()\n#define sz(x) ((int)x.size())\n#define dt distance \n#define test(t) int t; cin>>t; while(t--)\n#define csb(i) __builtin_popcount(i)\n#define csbll(i) __builtin_popcountll(i)\n#define clz(x) __builtin_clz(x)\n#define clzl(x) __builtin_clzl(x)\n#define cp(x) __builtin_parity(x)\n#define adv(v,num) advance(v,num)//used for lists and other structures that use iterators,when you can't access elements randomly ( iterator moves num positions)\n#define mod 1000000007\n#define MAX_ARR 1000000\n#define v2d(rowsize,colsize,type,name) vector<vector<type>> name(rowsize,vector<type>(colsize)); \n#define digits_in(i) (ll)log10(i)+1 // gives no of digits in a number \n#define sqr(x) (x)*(x)\n//does not apply for i==0 , add an excetion contition for n==0 ( cust return count 1 for that inseted of using this function)\n\n\n//typedef\ntypedef string str;\ntypedef long long ll;\ntypedef unsigned long long ull;\ntypedef vector<int> vi;\ntypedef vector<ll> vll;\ntypedef vector<str> vs;\ntypedef vector<char> vc;\ntypedef pair<int,int> pii;\ntypedef pair<str,int> psi;\ntypedef pair<int,str> pis; \ntypedef vector<pii> vii;\ntypedef map<int,int> mii;\ntypedef map<ll,ll> mll;\ntypedef map<str,int> msi;\ntypedef map<char,int> mci;\ntypedef map<int,str> mis;\ntypedef unordered_map<int,int> umii;\ntypedef unordered_map<str,int> umsi;\ntypedef unordered_map<int,str> umis;\ntypedef unordered_map<str,str> umss;\ntypedef unordered_map<char,int> umci;\ntypedef set<str> ss;\ntypedef set<int> si;\ntypedef unordered_set<str> uss;\ntypedef unordered_set<int> usi;\ntypedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;\n\n\n#define DEBUG \n\n#ifdef DEBUG\n\n    #define debug(args...)\tcout << \"Line No = \" <<  __LINE__ << \" >\\t\"; (Debugger()) , args\n\nclass Debugger\n{\npublic:\n\tDebugger(const std::string& _separator = \", \") :\n\tfirst(true), separator(_separator){}\n\n        template<typename ObjectType>\n\tDebugger& operator , (const ObjectType& v)\n\t{\n\t\tif(!first)\n\t\t\tstd::cout << separator;\n\t\tstd::cout << v;\n\t\tfirst = false;\n\t\treturn *this;\n\t}\n\t~Debugger() {  std::cout << endl;}\n\nprivate:\n\tbool first;\n\tstd::string separator;\n};\n\n    template <typename T1, typename T2>\ninline std::ostream& operator << (std::ostream& os, const std::pair<T1, T2>& p)\n{\n\treturn os << \"(\" << p.first << \", \" << p.second << \")\";\n}\n\n    template<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::vector<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor(unsigned int i = 0; i < v.size(); i++)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << v[i];\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\n\n    template<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::set<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (typename std::set<T>::const_iterator ii = v.begin(); ii != v.end(); ++ii)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << *ii;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\n\n    template<typename T1, typename T2>\ninline std::ostream &operator << (std::ostream & os,const std::map<T1, T2>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (typename std::map<T1, T2>::const_iterator ii = v.begin(); ii != v.end(); ++ii)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << *ii ;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\ntemplate<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::deque<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (auto s: v)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << s;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\ntemplate<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::list<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (auto s: v)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << s;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\n\n#else\n    #define debug(args...)                  // Just strip off all debug tokens\n#endif\n\n\n\n\n/*   FILE IO \n     freopen(\"in.txt\",\"r\",stdin);    //to be put inside\n     freopen(\"out.txt\",\"w\",stdout);  //main , when  used today\n*/  \n     template <typename T>\n\n     vector<vector<T> > PowerSet(vector<T>  s) {\nvector<vector<T> > powerSet ;//power set to be populated;\nint n = s.size();\nfor (int i = 0; i < (1 << n); i++){\n\tvector<int> ts;\n\tfor (int j = 0; j < n; j++){\n\t\tif (i & (1 << j)) //checking jth bit set\n\t\t\tts.push_back(s[j]);\n\t}\n\n\tpowerSet.push_back(ts);\n}\nreturn powerSet;\n}\n\nint ever_increasing(vi & v){\n\tfor(int i=1;i<sz(v);i++)if(v[i]<v[i-1])return 0;\n\t\treturn 1;\n}\n\nint main(){fastio\n\tint n;\n\tcin>>n;\n\tvi v(n);\n\tre(i,n)cin>>v[i];\n\n\tint maxi=1;\n\t\n\tfor(auto it:PowerSet(v) )if(ever_increasing(it)) maxi=max(maxi,sz(it));\n\t\n\n\tcout<<maxi;\n\n\treturn 0;\n}\n\n\n\n\n\n\n\n\n\n",
+			"file": "Programming Template mod.cpp",
+			"file_size": 6323,
+			"file_write_time": 131491053265478963,
+			"settings":
+			{
+				"buffer_size": 6032,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*input\n1\n4\n*/\n#include <bits/stdc++.h>\n#include <ext/pb_ds/assoc_container.hpp>\n#include <ext/pb_ds/tree_policy.hpp>\n\nusing namespace std;\nusing namespace __gnu_pbds;\n\n#define MOD 1000000007\n\n#define MODSET(d) if ((d) >= MOD) d %= MOD;\n#define MODNEGSET(d) if ((d) < 0) d = ((d % MOD) + MOD) % MOD;\n#define MODADDSET(d) if ((d) >= MOD) d -= MOD;\n#define MODADDWHILESET(d) while ((d) >= MOD) d -= MOD;\n\n\n\n//defines   \n\n#define dsc1(a,type) type a; cin>>a;\n#define dsc2(a,b,type) type a,b; cin>>a>>b;\n#define dsc3(a, b, c,type) type a,b,c; cin>>a>>b>>c;\n#define dsc4(a, b, c, d,type) type a ,b,c,d; cin>>a>>b>>c>>d;\n#define nl    cout<<\"\\n\";\n#define foreach(v, c) for(__typeof( (c).begin()) v = (c).begin();  v != (c).end(); ++v)\n#define revforeach(v, c) for(__typeof( (c).rbegin()) v = (c).rbegin();  v != (c).rend(); ++v)\n\n#define fastio ios_base::sync_with_stdio(0);cin.tie(0);\n#define re(i,b) for(int i=0;i<int(b);i++)\n#define re1(i,b) for(int i=1;i<=int(b);i++)\n#define all(c) c.begin(), c.end() \n#define rall(c) c.rbegin(),c.rend()\n#define mpresent(container, element) (container.find(element) != container.end()) //for map,set..etc (returns true/false value)\n#define vpresent(container, element) (find(all(container),element) != container.end()) //for vectors,strings,list,deque (returns true/false value)\n\n#define eb emplace_back\n#define mp make_pair\n#define fi first\n#define se second\n#define pb push_back\n#define pf push_front\n#define ins insert\n#define F first\n#define S second\n#define clr clear()\n#define sqr(x) ((x)*(x))\n#define sz(x) ((int)x.size())\n#define dt distance \n#define test(t) int t; cin>>t; while(t--)\n#define csb(i) __builtin_popcount(i)\n#define csbll(i) __builtin_popcountll(i)\n#define clz(x) __builtin_clz(x)\n#define clzl(x) __builtin_clzl(x)\n#define cp(x) __builtin_parity(x)\n#define M 32\n#define adv(v,num) advance(v,num)//used for lists and other structures that use iterators,when you can't access elements randomly ( iterator moves num positions)\n#define MOD 1000000007\n#define MAX_ARRAY_SIZE 100000001\n#define v2d(rowsize,colsize,type,name) vector<vector<type>> name(rowsize,vector<type>(colsize)); \n#define digits_in(i) (ll)log10(i)+1 // gives no of digits in a number \n//does not apply for i==0 , add an excetion contition for n==0 ( cust return count 1 for that inseted of using this function)\n\n\n//typedef\ntypedef string str;\ntypedef long long ll;\ntypedef unsigned long long ull;\ntypedef vector<int> vi;\ntypedef vector<ll> vll;\ntypedef vector<str> vs;\ntypedef vector<char> vc;\ntypedef pair<int,int> pii;\ntypedef pair<str,int> psi;\ntypedef pair<int,str> pis; \ntypedef vector<pii> vii;\ntypedef map<int,int> mii;\ntypedef map<ll,ll> mll;\ntypedef map<str,int> msi;\ntypedef map<char,int> mci;\ntypedef map<int,str> mis;\ntypedef unordered_map<int,int> umii;\ntypedef unordered_map<str,int> umsi;\ntypedef unordered_map<int,str> umis;\ntypedef unordered_map<str,str> umss;\ntypedef unordered_map<char,int> umci;\ntypedef set<str> ss;\ntypedef set<int> si;\ntypedef unordered_set<str> uss;\ntypedef unordered_set<int> usi;\ntypedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;\n\n\n#define DEBUG \n\n#ifdef DEBUG\n\n    #define debug(args...)\tcout << \"Line No = \" <<  __LINE__ << \" >\\t\"; (Debugger()) , args\n\nclass Debugger\n{\npublic:\n\tDebugger(const std::string& _separator = \", \") :\n\tfirst(true), separator(_separator){}\n\n        template<typename ObjectType>\n\tDebugger& operator , (const ObjectType& v)\n\t{\n\t\tif(!first)\n\t\t\tstd::cout << separator;\n\t\tstd::cout << v;\n\t\tfirst = false;\n\t\treturn *this;\n\t}\n\t~Debugger() {  std::cout << endl;}\n\nprivate:\n\tbool first;\n\tstd::string separator;\n};\n\n    template <typename T1, typename T2>\ninline std::ostream& operator << (std::ostream& os, const std::pair<T1, T2>& p)\n{\n\treturn os << \"(\" << p.first << \", \" << p.second << \")\";\n}\n\n    template<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::vector<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor(unsigned int i = 0; i < v.size(); i++)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << v[i];\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\n\n    template<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::set<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (typename std::set<T>::const_iterator ii = v.begin(); ii != v.end(); ++ii)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << *ii;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\n\n    template<typename T1, typename T2>\ninline std::ostream &operator << (std::ostream & os,const std::map<T1, T2>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (typename std::map<T1, T2>::const_iterator ii = v.begin(); ii != v.end(); ++ii)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << *ii ;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\ntemplate<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::deque<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (auto s: v)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << s;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\ntemplate<typename T>\ninline std::ostream &operator << (std::ostream & os,const std::list<T>& v)\n{\n\tbool first = true;\n\tos << \"[\";\n\tfor (auto s: v)\n\t{\n\t\tif(!first)\n\t\t\tos << \", \";\n\t\tos << s;\n\t\tfirst = false;\n\t}\n\treturn os << \"]\";\n}\n\n#else\n    #define debug(args...)                  // Just strip off all debug tokens\n#endif\n\n     //   freopen(\"in.txt\",\"r\",stdin);    //to be put inside\n     // freopen(\"out.txt\",\"w\",stdout);  //main , when  used today\n\n\ntemplate <typename T>\n\nvector<vector<T> > PowerSet(vector<T>  s) {\nvector<vector<T> > powerSet ;//power set to be populated;\nint n = s.size();\nfor (int i = 0; i < (1 << n); i++){\n\tvector<int> ts;\n\tfor (int j = 0; j < n; j++){\n\t\tif (i & (1 << j)) //checking jth bit set\n\t\t\tts.push_back(s[j]);\n\t}\n\n\tpowerSet.push_back(ts);\n}\nreturn powerSet;\n}\n\n\n\nint main() {fastio\n\t\n\tvi v={4,5,6};\n\n\n\treturn 0;\n}\n\n\n\n",
+			"file": "Algos/powerSet.cpp",
+			"file_size": 6242,
+			"file_write_time": 131491040808421273,
+			"settings":
+			{
+				"buffer_size": 5794,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++11/C++11.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 345.0,
+		"last_filter": "ena",
+		"selected_items":
+		[
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"d",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"BracketHighlighter: Enable Debug Mode"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"packate",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/dummy.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/aiseyhi.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/powerSet.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/split_string.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/inversion_ct.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/substrings_subarray.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/substrings_of_a_string.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/subsequences_subsets.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/my_binary_search.cpp",
+		"/C/Users/Chiranjeev/Desktop/programs/seve.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/sol.cpp",
+		"/C/Users/Chiranjeev/Desktop/seve.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/inc_exc.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/1.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/my_bin.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/MERGE_SORT.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/fast_modular_exponentiation.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/fast_mod_exp.cpp",
+		"/C/Users/Chiranjeev/Desktop/myfile.java",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/User/SublimeInput.sublime-settings",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/Sublime Input/SublimeInput.sublime-settings",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/2.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Programming Template mod.cpp",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/C++11/messages/install.txt",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/User/ThemrFavorites.sublime-settings",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/Themr/ThemrFavorites.sublime-settings",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/C++ Snippets/README.md",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/code.cpp",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/User/mayne.sublime-snippet",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Topcoder/Topcoder_template.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/three.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/two.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/one.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/q5.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/q4.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/q3.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/KMP.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/test.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/q2.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/my_prime_sqrt_method.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/dp.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/5.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/4.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/3.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Algos/seve.cpp",
+		"/C/Users/Chiranjeev/AppData/Local/Temp/Rar$DIa0.819/C++ Programming 4 Competitions - Practice - Calculator V1.0.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/JavaTemplate.java",
+		"/C/Users/Chiranjeev/Desktop/Demo.java",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/stepic_q1.cpp",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/User/CONSOLE.sublime-build",
+		"/C/Users/Chiranjeev/AppData/Roaming/Sublime Text 3/Packages/User/FILEIO.sublime-build",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/USACO_Greedy_Gift_Govers.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/seve.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/the_monk_and_preteek.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/Little_Jhool_and_matchmaker.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/the_monk_and_kundan.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/sorted_matrix.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/nearest_repeated_entries.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/smallest_subarry_contatining_all_values.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/jhool_jaadu.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/unique_pairs.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/rec_sum.cpp",
+		"/C/Users/Chiranjeev/Desktop/programs/factrorial.cpp",
+		"/C/Users/Chiranjeev/Desktop/MyCode/Competitive/max_subarray.cpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"double",
+			"long double ",
+			"double",
+			"long double",
+			"ll",
+			"long double",
+			"double",
+			"float",
+			"double",
+			"ll",
+			"double",
+			"y2",
+			"x2",
+			"y1",
+			"x1",
+			"float",
+			"int",
+			"ll",
+			"int",
+			"A",
+			"P",
+			"K",
+			"N",
+			"int",
+			"y2",
+			"x2",
+			"y1",
+			"x1",
+			"auto",
+			"MAX_ARRAY_SIZE",
+			"v",
+			"num",
+			"max_arr",
+			"temp_candidate",
+			"ull",
+			"max_arr",
+			"x_min",
+			"x_max",
+			"_mergeSort",
+			"debug",
+			"luck",
+			"N",
+			"max_arr",
+			"MODSET",
+			"digits",
+			"v2d",
+			"\n     \tvi v={3,5,6,7,8,9,9,9,34,78};\n\n     \tcout<<distance(lower_bound(all(v),9),upper_bound(all(v),9));\n",
+			"re1",
+			"reverse",
+			"re1",
+			"int",
+			"ll",
+			" ll",
+			"ll",
+			"v",
+			"mspresent",
+			"sz",
+			"MOD",
+			"modset",
+			"ull",
+			"mod",
+			"nl",
+			"temp",
+			"n",
+			"n_th_number",
+			"C",
+			"debug",
+			"pid_t",
+			"J",
+			"j",
+			"J",
+			"j",
+			"J",
+			"j",
+			"J",
+			"j",
+			"rnt",
+			"J",
+			"j",
+			"J",
+			"j",
+			"J",
+			"j",
+			"J",
+			"j",
+			"cnt",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"arr",
+			"mod",
+			"modu",
+			"i",
+			"re",
+			"test",
+			");\n",
+			"Debug",
+			"r==0 && g==0 && b==0",
+			"r!=0 && g!=0 && b==0",
+			"r==0 && g!=0 && b==0",
+			"r==0 && g==0 && b!=0",
+			"r!=0 && g==0 && b!=0",
+			"r!=0 && g==0 && b==0",
+			"r==0 && g!=0 && b!=0",
+			"r!=0 && g!=0 && b==0",
+			"mod"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Programming Template mod.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5945,
+								5945
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5945,
+										5946
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5924,
+										5925
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Algos/powerSet.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5777,
+								5777
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5789,
+										5790
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5751,
+										5752
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 296.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 206.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "Topcoder Competetions.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Chiranjeev\\Desktop\\MyCode\\Competitive\\dummy.cpp"
+			],
+			[
+				"pr",
+				"C:\\Users\\Chiranjeev\\Desktop\\MyCode\\Competitive\\Programming Template mod.cpp"
+			],
+			[
+				"q5",
+				"C:\\Users\\Chiranjeev\\Desktop\\MyCode\\Competitive\\q5.cpp"
+			],
+			[
+				"q",
+				"C:\\Users\\Chiranjeev\\Desktop\\MyCode\\Competitive\\q5.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
