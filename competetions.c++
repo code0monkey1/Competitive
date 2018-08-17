@@ -80,7 +80,7 @@ using namespace __gnu_pbds;
 #define LIM 6002
 #define myname "CHIRANJEEV_THOMAS"
 //typedefs
-typedef  __int128 SUPER_LL; // you cannot cin>> this, but can assign this to some cinend value( that's how you use it )
+// typedef  __int128 SUPER_LL; // you cannot cin>> this, but can assign this to some cinend value( that's how you use it )
 typedef string STR;
 typedef long long LL;
 typedef unsigned long long ULL;
@@ -188,68 +188,19 @@ inline double tick(){static clock_t oldt,newt=clock();double diff=1.0*(newt-oldt
     #define debug(args...)                 
  #endif
 
-const int lim=100010;
 
-int ct[lim];
-int parent[lim];
-
-int root(int a){
-
-	if(parent[a]==a)return a;
-	else return parent[a]=root(parent[a]);
-}
-void merge(int a,int b){
-
-	a=root(a);
-	b=root(b);
-
-	if(a==b)return;
-
-	ct[a]+=ct[b];
-	ct[b]=0;
-	parent[b]=a;
-}
 
 int main(){ FASTIO
     #ifndef ONLINE_JUDGE
 	FILE_IO
  	#endif
 
-	int n; cin>>n;
-
-	for(int i=1;i<=2*n;i++){
-		parent[i]=i;
-		ct[i]=1;
-	}
-	unordered_set<int> s;
-
-	RE1(i,n){
 
 
-		int a,b;cin>>a>>b;
-		s.insert(a);
-		s.insert(b);
-		merge(a,b);
-	}
-	int maxx=INT_MIN;
-	int minn=INT_MAX;
-	RE1(i,2*n){
-
-		int a=root(i);
-		if(s.find(a)==s.end())continue;
-		if(ct[a]){
-			maxx=max(maxx,ct[a]);
-			minn=min(minn,ct[a]);
-		}
-	}
-
-	cout<<minn<<" "<<maxx;
-
-
+	
  	#ifndef ONLINE_JUDGE	
 	cout<<"\n-------------\n"<<tick()<<" Seconds "<<"\n-------------";
  	#endif
-
 	return 0;
 }
 
