@@ -121,65 +121,65 @@ inline double tick(){static clock_t oldt,newt=clock();double diff=1.0*(newt-oldt
 // template<typename T>T mod_inverse(T a, T n){T x,y,z=0;T d=extended_euclid(a,n,x,y);return(d>1?-1:mod_neg(x,z,n));}
 
 #define maxii 1000010
-// -- code for suing SUPER_LL (128 bit int)  or 10^40--
-// std::ostream&
-// operator<<( std::ostream& dest, __int128_t value )
-// {
-// 	std::ostream::sentry s( dest );
-// 	if ( s ) {
-// 		__uint128_t tmp = value < 0 ? -value : value;
-// 		char buffer[ 128 ];
-// 		char* d = std::end( buffer );
-// 		do
-// 		{
-// 			-- d;
-// 			*d = "0123456789"[ tmp % 10 ];
-// 			tmp /= 10;
-// 		} while ( tmp != 0 );
-// 		if ( value < 0 ) {
-// 			-- d;
-// 			*d = '-';
-// 		}
-// 		int len = std::end( buffer ) - d;
-// 		if ( dest.rdbuf()->sputn( d, len ) != len ) {
-// 			dest.setstate( std::ios_base::badbit );
-// 		}
-// 	}
-// 	return dest;
-// }
-// -- end of code for using 128 bit int --
-// template<typename T>T extended_euclid(T a, T b, T &x, T &y){
-// T xx=0,yy=1;y=0;x=1;
+//-- code for suing SUPER_LL (128 bit int)  or 10^40--
+std::ostream&
+operator<<( std::ostream& dest, __int128_t value )
+{
+	std::ostream::sentry s( dest );
+	if ( s ) {
+		__uint128_t tmp = value < 0 ? -value : value;
+		char buffer[ 128 ];
+		char* d = std::end( buffer );
+		do
+		{
+			-- d;
+			*d = "0123456789"[ tmp % 10 ];
+			tmp /= 10;
+		} while ( tmp != 0 );
+		if ( value < 0 ) {
+			-- d;
+			*d = '-';
+		}
+		int len = std::end( buffer ) - d;
+		if ( dest.rdbuf()->sputn( d, len ) != len ) {
+			dest.setstate( std::ios_base::badbit );
+		}
+	}
+	return dest;
+}
+//-- end of code for using 128 bit int --
+template<typename T>T extended_euclid(T a, T b, T &x, T &y){
+T xx=0,yy=1;y=0;x=1;
 
-// while(b){
-// 	T q=a/b,
-// 	t=b;
-// 	b=a%b;
-// 	a=t;
-// 	t=xx;
-// 	xx=x-q*xx;
-// 	x=t;
-// 	t=yy;
-// 	yy=y-q*yy;
-// 	y=t;
-// }
+while(b){
+	T q=a/b,
+	t=b;
+	b=a%b;
+	a=t;
+	t=xx;
+	xx=x-q*xx;
+	x=t;
+	t=yy;
+	yy=y-q*yy;
+	y=t;
+}
 
-// return a;
-// }
+return a;
+}
 
-// LL fast_exp(LL base, LL exp,LL mod) {
+LL fast_exp(LL base, LL exp,LL mod) {
 
-// 	LL res=1;
-// 	exp=(exp%MOD+MOD)%MOD;
-// 	while(exp) {
+	LL res=1;
+	exp=(exp%MOD+MOD)%MOD;
+	while(exp) {
 
-// 		if(exp &1) res=(res*base)%mod;
-// 		base=(base*base)%mod;
-// 		exp>>=1;
+		if(exp &1) res=(res*base)%mod;
+		base=(base*base)%mod;
+		exp>>=1;
 
-// 	}
-// 	return (res%mod+mod)%mod;
-// }
+	}
+	return (res%mod+mod)%mod;
+}
 
 
 #ifndef ONLINE_JUDGE
@@ -188,21 +188,64 @@ inline double tick(){static clock_t oldt,newt=clock();double diff=1.0*(newt-oldt
     #define debug(args...)                 
  #endif
 
+int items;
+int knapSackWeight;
+
+int knapsackValue(int knapSackWeight,VI & value,VI & weight){
+	int rowsize=items+1;
+	int coulmnsize=knapSackWeight+1;
 
 
-int main(){ FASTIO
+	int dp[rowsize][coulmnsize];
+
+	memset(dp,0,sizeof(dp));
+
+	for(int r=1;r<=items;r++)
+		for( int c=1;c<=knapSackWeight;c++)
+			dp[r][c]= max(dp[r-1][c],c>=weight[r]?value[r]+dp[r-1][c-weight[r]]:0);
+		
+		
+
+		for(int i=1;i<=items;i++){
+			
+			for(int j=1;j<=knapSackWeight;j++){
+				cout<<dp[i][j]<<" "; 
+			}
+			cout<<"\n";
+		}
+
+		return dp[items][knapSackWeight];
+	}
+
+	int main(){ FASTIO
     #ifndef ONLINE_JUDGE
-	FILE_IO
+		FILE_IO
  	#endif
 
 
+		knapSackWeight=7;
+		items =4 ;
 
-	
+		VI value(items+1);
+		VI weight(knapSackWeight+1);
+
+		value[1]=1;
+		value[2]=4;
+		value[3]=5;
+		value[4]=7;
+
+		weight[1]=1;
+		weight[2]=3;
+		weight[3]=4;
+		weight[4]=5;
+
+		cout<<knapsackValue(knapSackWeight,value,weight);
+
  	#ifndef ONLINE_JUDGE	
-	cout<<"\n-------------\n"<<tick()<<" Seconds "<<"\n-------------";
+		cout<<"\n-------------\n"<<tick()<<" Seconds "<<"\n-------------";
  	#endif
-	return 0;
-}
+		return 0;
+	}
 
 
 

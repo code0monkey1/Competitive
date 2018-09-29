@@ -13,11 +13,8 @@ using namespace __gnu_pbds;
 #define MODADDSET(d) if ((d) >= MOD) d -= MOD;
 #define MODADDWHILESET(d) while ((d) >= MOD) d -= MOD;
 #define PI 2*acos(0.0)
-
-
-//defines   
-
-
+#define MAX_HASH_RESERVE 10000001
+//defines  
 #define FILE_IO   freopen("in.txt","r",stdin); freopen("out.txt","w",stdout); 
 #define sc1(a,type) type a; cin>>a;
 #define sc2(a,b,type) type a,b; cin>>a>>b;
@@ -26,6 +23,12 @@ using namespace __gnu_pbds;
 #define NL   cout<<"\n";
 #define foreach(v, c) for(__typeof( (c).begin()) v = (c).begin();  v != (c).end(); ++v)
 #define revforeach(v, c) for(__typeof( (c).rbegin()) v = (c).rbegin();  v != (c).rend(); ++v)
+#define si(n) scanf("%d",&n)
+#define sf(n) scanf("%f",&n)
+#define sl(n) scanf("%lld",&n)
+#define slu(n) scanf("%llu",&n)
+#define sd(n) scanf("%lf",&n)
+#define ss(n) scanf("%s",n)
 //cp3 macros----
 #define isOn(S, j) (S & (1 << j))
 #define setBit(S, j) (S |= (1 << j))
@@ -33,7 +36,6 @@ using namespace __gnu_pbds;
 #define toggleBit(S, j) (S ^= (1 << j))
 #define lowBit(S) (S & (-S)) // to get the value of the least significant on bit
 #define setAll(S, n) (S = (1 << n) - 1) // sets all bits on till length n 
-
 #define modulo(S, N) ((S) & (N - 1))   // returns S % N, where N is a power of 2
 #define isPowerOfTwo(S) (S && !(S & (S - 1))) // deals with zero
 #define nearestPowerOfTwo(S) ((int)pow(2.0, (int)((log((double)S) / log(2.0)) + 0.5)))
@@ -43,15 +45,14 @@ using namespace __gnu_pbds;
 #define turnOnLastConsecutiveZeroes(S) ((S) | (S - 1))
 #define turnOnLastNbits(n) (n= ((n)^(n>>1) )) //
 //----
-
-#define fastio ios_base::sync_with_stdio(0);cin.tie(0);
+#define FASTIO ios_base::sync_with_stdio(0);cin.tie(0);
 #define RE(i,b) for(int i=0;i<int(b);i++)
 #define RE1(i,b) for(int i=1;i<=int(b);i++)
 #define ALL(c) c.begin(), c.end() 
 #define RALL(c) c.rbegin(),c.rend()
 #define MPRESENT(container, element) (container.find(element) != container.end()) //for map,set..etc (returns true/false value)
-#define VPRESENT(container, element) (find(all(container),element) != container.end()) //for vectors,strings,list,deque (returns true/false value)
-
+#define VPRESENT(container, element) (find(ALL(container),element) != container.end()) //for vectors,strings,list,deque (returns true/false value)
+//----
 #define EB emplace_back
 #define MP make_pair
 #define PB push_back
@@ -60,37 +61,39 @@ using namespace __gnu_pbds;
 #define F first
 #define S second
 #define CLR clear()
-#define SZ(x) ((LL)x.size())
+#define SZ(x) ((int)x.size())
 #define DT distance 
 #define TEST(t) int t; cin>>t; while(t--)
 #define csb(i) __builtin_popcount(i)
 #define csbll(i) __builtin_popcountll(i)
 #define clz(x) __builtin_clz(x)
-#define clzl(x) __builtin_clzl(x)
+#define clzll(x) __builtin_clzll(x)
 #define cp(x) __builtin_parity(x)
 #define ADV(v,num) advance(v,num)//used for lists and other structures that use iterators,when you can't access elements randomly ( iterator moves num positions)
 #define MAX_SIZE 100000000
 #define MAX_SIZE_IN_FUNCTION 100001
 #define V2D(rowsize,colsize,type,name) vector<vector<type>> name(rowsize,vector<type>(colsize)); 
-#define DIGITS_IN(i) (ll)log10(i)+1 // gives no of digits in a number 
+#define digits_in(i) (ll)log10(i)+1 // gives no of digits in a number 
 #define SQR(x) (x)*(x)
 #define UB upper_bound
 #define LB lower_bound
 #define LIM 6002
-
-//typedef
+#define myname "CHIRANJEEV_THOMAS"
+//typedefs
 // typedef  __int128 SUPER_LL; // you cannot cin>> this, but can assign this to some cinend value( that's how you use it )
 typedef string STR;
 typedef long long LL;
 typedef unsigned long long ULL;
+typedef long double LD;
 typedef vector<int> VI;
 typedef pair<int,int> PII;
+typedef pair<LL,LL> PLL;
 typedef priority_queue<int> PQI;
-typedef vector<LL> VLL;
+typedef vector<LL> VL;
+typedef vector<PLL> VLL;
 typedef vector<STR> VS;
 typedef vector<char> VC;
 typedef pair<int,int> PII;
-typedef pair<LL,LL> PLL;
 typedef pair<STR,int> PSI;
 typedef pair<int,STR> PIS; 
 typedef vector<PII> VII;
@@ -100,11 +103,25 @@ typedef map<STR,int> MSI;
 typedef map<char,int> MCI;
 typedef map<int,STR> MIS;
 typedef set<STR> SS;
+typedef set<char> SC;
 typedef set<int> SI;
 typedef set<LL> SLL;
-typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
+typedef unordered_set<LL> USL;
+typedef unordered_set<PLL> USLL;
+typedef unordered_set<STR> USS;
+typedef unordered_set<int> USI;
+typedef unordered_set<PII> USII;
+//typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
+template <class T> T gcd (T a, T b) {  while (b) { T r = a % b; a = b; b = r; } return a; }
+template <class T> T lcm (T a, T b) { return a / gcd (a, b) * b; }
+template <class T> void vector_in(std::vector<T> & v,int n){ for(int i=0;i<n;i++){T temp;cin>>temp;v.push_back(temp);}}
+//--- Templatised methods
+inline double tick(){static clock_t oldt,newt=clock();double diff=1.0*(newt-oldt)/CLOCKS_PER_SEC;oldt=newt;return diff;}
+// int mod_neg(int a, int b, int c){int res;if(abs(a-b)<c)res=a-b;else res=(a-b)%c;return(res<0?res+c:res);}
+// template<typename T>T mod_inverse(T a, T n){T x,y,z=0;T d=extended_euclid(a,n,x,y);return(d>1?-1:mod_neg(x,z,n));}
 
-//-- code for suing SUPER_LL (128 bit int) --
+#define maxii 1000010
+//-- code for suing SUPER_LL (128 bit int)  or 10^40--
 std::ostream&
 operator<<( std::ostream& dest, __int128_t value )
 {
@@ -131,86 +148,81 @@ operator<<( std::ostream& dest, __int128_t value )
 	return dest;
 }
 //-- end of code for using 128 bit int --
+template<typename T>T extended_euclid(T a, T b, T &x, T &y){
+T xx=0,yy=1;y=0;x=1;
 
-#ifndef ONLINE_JUDGE
-    #include "debug.h"
- #else
-    #define debug(args...)                 
- #endif
+while(b){
+	T q=a/b,
+	t=b;
+	b=a%b;
+	a=t;
+	t=xx;
+	xx=x-q*xx;
+	x=t;
+	t=yy;
+	yy=y-q*yy;
+	y=t;
+}
+
+return a;
+}
 
 LL fast_exp(LL base, LL exp,LL mod) {
 
 	LL res=1;
-
+	exp=(exp%MOD+MOD)%MOD;
 	while(exp) {
-		
+
 		if(exp &1) res=(res*base)%mod;
 		base=(base*base)%mod;
 		exp>>=1;
 
 	}
-
-	return res;
+	return (res%mod+mod)%mod;
 }
 
 
+#ifndef ONLINE_JUDGE
+	   #include "debug.h"
+ #else
+    #define debug(args...)                 
+ #endif
 
-int main(){
-	#ifndef ONLINE_JUDGE
+
+
+int main(){ FASTIO
+    #ifndef ONLINE_JUDGE
 	FILE_IO
-	#endif   
+ 	#endif
 
-	int n;cin>>n;
-	VI v(n+1);
-	RE1(i,n)cin>>v[i];
-
-	map<int,VI> m;
-
-	for(int i=2;i<=100;i++){
-		int s=1;
-		for(int k=2;k*k<=i;k++){
-			if(i%k==0)s=0;
-		}
-		std::vector<int> v(n+1);
-		if(s)m[i]=v;
-	}
-
-	for(auto it: m){
-		int sum=0;
-		int num=it.F;
-		RE1(i,n){
-
-			if(v[i]%num==0){
-				int tp=v[i];
-				while(tp%num==0){
-					tp/=num;
-					sum++;
-				}
-			}
-
-			m[num][i]=sum;
-		}
-	}
-
-
-	TEST(q){
+	TEST(t){
 		
-		LL answer=1;
+		int n;cin>>n;
+		int weight;cin>>weight;
 
-		int lhs,rhs,mod;
-		cin>>lhs>>rhs>>mod;
-		lhs--;
+		VI values(n);
 
-		for(auto it: m){
-			int num=it.F;
-			int power=m[num][rhs]-m[num][lhs];
-			answer*=fast_exp(num,power,mod);
-			answer%=mod;
+		RE(i,n)cin>>values[i];
+
+		sort(ALL(values));
+
+		int result=0;
+		for(int i=n-1;i>=0;i--){
+			while(result+values[i]<=weight){
+				result+=values[i];
+			}
 		}
-		cout<<answer<<"\n";
+		cout<<result<<"\n";
 	}
 
+ 	#ifndef ONLINE_JUDGE	
+	cout<<"\n-------------\n"<<tick()<<" Seconds "<<"\n-------------";
+ 	#endif
 	return 0;
 }
+
+
+
+
 
 
